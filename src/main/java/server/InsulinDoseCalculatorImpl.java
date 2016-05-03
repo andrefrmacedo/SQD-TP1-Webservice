@@ -13,8 +13,8 @@ public class InsulinDoseCalculatorImpl implements InsulinDoseCalculator {
     }
 
     public int backgroundInsulinDose(int bodyWeight) {
-        double backgroudInsulinDose = 0.55 * bodyWeight;
-        return (int) (backgroudInsulinDose * 0.5);
+        double backgroundInsulinDose = 0.55 * bodyWeight;
+        return (int) (backgroundInsulinDose * 0.5);
     }
 
     public int personalSensitivityToInsulin(int physicalActivityLevel, int[] physicalActivitySamples, int[] bloodSugarDropSamples) {
