@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="SQD-TP1-Webservice:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/SQD_TP1_Webservice_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="SQD-TP1-Webservice/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="SQD-TP1-Webservice" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
