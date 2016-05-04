@@ -26,7 +26,6 @@ import javax.jws.soap.SOAPBinding;
  * @version 1.1
  */
 @WebService
-@SOAPBinding(style = SOAPBinding.Style.RPC)
 public interface InsulinDoseCalculator {
     /**
      * Calculates the number of insulin units needed after one meal.
