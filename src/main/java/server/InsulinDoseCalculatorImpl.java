@@ -2,7 +2,7 @@ package server;
 
 import javax.jws.WebService;
 
-@WebService(endpointInterface = "server.InsulinDoseCalculator")
+@WebService(endpointInterface = "server.InsulinDoseCalculator", serviceName = "InsulinDoseCalculatorService", portName = "InsulinDoseCalculatorPort")
 public class InsulinDoseCalculatorImpl implements InsulinDoseCalculator {
 
     public int mealtimeInsulinDose(int carbohydrateAmount, int carbohydrateToInsulinRatio, int preMealBloodSugar, int targetBloodSugar, int personalSensitivity) {
